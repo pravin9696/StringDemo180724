@@ -1,4 +1,6 @@
-﻿namespace StringDemo180724
+﻿using System.Text;
+
+namespace StringDemo180724
 {
     //WAP to compare given two strings are equal or not
 
@@ -106,6 +108,8 @@
             //so.compareStrings();
             #endregion
 
+            #region 180724
+
             ////step1 create object of class
             //StringOperations sobj = new StringOperations();
 
@@ -115,25 +119,81 @@
 
             //string str=   string.Concat("pune", "Warje");
             // Console.WriteLine(str);
-            string ss1 = "abcd";
-            string ss2 = "xyz";
+            //string ss1 = "abcd";
+            //string ss2 = "xyz";
 
-            string ss3 = string.Concat(ss1, ss2);
-            Console.WriteLine("ss1="+ss1);
-            Console.WriteLine("ss2=" + ss2);
-            Console.WriteLine("ss3=" + ss3);
-            // combine Fname Mname and Lname of student and display
+            //string ss3 = string.Concat(ss1, ss2);
+            //Console.WriteLine("ss1="+ss1);
+            //Console.WriteLine("ss2=" + ss2);
+            //Console.WriteLine("ss3=" + ss3);
+            //// combine Fname Mname and Lname of student and display
 
 
-            string fname = "rajesh";
-            string mname = "mohan";   //rajesh mohan waghmare 
-            string lname = "waghmare";
-            string studName = string.Concat(fname, " ");//rajesh__  
-            studName = string.Concat(studName,mname);//rajesh mohan
-            studName = string.Concat(studName, " ");//rajesh mohan__
-            studName = string.Concat(studName, lname);
-            Console.WriteLine("Student name is:"+studName);
+            //string fname = "rajesh";
+            //string mname = "mohan";   //rajesh mohan waghmare 
+            //string lname = "waghmare";
+            //string studName = string.Concat(fname, " ");//rajesh__  
+            //studName = string.Concat(studName,mname);//rajesh mohan
+            //studName = string.Concat(studName, " ");//rajesh mohan__
+            //studName = string.Concat(studName, lname);
+            //Console.WriteLine("Student name is:"+studName);
+            #endregion
 
+            //string str = "pune mumbai nashik pune nagpur delhi";
+            //string city = "Pimpri ";
+
+            // Console.WriteLine(str.Contains(city));
+
+            //char[] chArr = new char[50];
+            ////city.CopyTo(chArr);
+            //city.CopyTo(1, chArr, 5, 5);
+
+            //for (int i = 0; i < chArr.Length; i++)
+            //{
+            //    Console.WriteLine(chArr[i]);
+            //}
+            // Console.WriteLine(str.IndexOf(city));
+            // Console.WriteLine("******************");
+            //string temp= str.Insert(31, city);
+            // Console.WriteLine("temp= "+temp);
+            // Console.WriteLine("str="+str);
+            // Console.WriteLine("city = "+city);
+            // string[] myCities = new string[] { "kolhapur", "solapur", "Sangli" };
+            // // string combineCities= string.Join(',', myCities);
+            // //Console.WriteLine(combineCities);
+            // string combineCities = "kolhapur,solapur,sangli";
+            // string[] xyz;
+            // xyz=combineCities.Split(',');
+            // Console.WriteLine(xyz[0]);
+            // Console.WriteLine(xyz[1]);
+            // Console.WriteLine(xyz[2]);
+
+            //string city1 = "pu    ne";
+            //Console.WriteLine(city1.Length+" "+city1);
+            ////Console.WriteLine(string.Compare(city1.Trim(),"pune"));
+            //string newCity = city1.Trim();
+            //Console.WriteLine(newCity.Length + " " + newCity);
+
+            // StringBuilder sb1 = new StringBuilder();
+            // string temp = "pune";
+            //  sb1.Append(temp); 
+            // Console.WriteLine(sb1);
+            // sb1.Append(" nashik");
+            // sb1.Append("goa");
+            // Console.WriteLine(sb1);
+            //// string ss = sb1.ToString();
+            //// Console.WriteLine(ss);
+            ////string city123 = "nagar";
+            //// sb1 = new StringBuilder( city123);
+
+            //StringBuilder sb = new StringBuilder("Hello World!", 50);
+            //sb.Remove(6,1);
+            //Console.WriteLine(sb);
+            //StringBuilder sb = new StringBuilder("Hello World!");
+            //sb.Replace("World", "C#"); 
+            //Console.WriteLine(sb);//output: Hello C#! 
+            //Console.WriteLine(sb.Capacity);
+            //sb.Clear();
 
         }
     }
